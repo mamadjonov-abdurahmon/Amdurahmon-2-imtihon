@@ -1,0 +1,61 @@
+.news{
+ position: relative;
+ right: 0;
+ z-index: 5;
+ display: block;
+ background-image: url("../../images/kuchuk-11.svg");
+ background-repeat: no-repeat;
+ background-position: calc(50% ) calc(50% - 10px);
+ width: 100%;
+ padding-top: 235px;
+ padding-bottom: 216px;
+}
+
+.news-stay{
+ // margin: 0 auto;
+ // display: block;
+ // text-align: center;
+ margin-left: 237px;
+}
+
+.news-stay__taitl{
+ font-weight: bold;
+ font-size: 48px;
+ line-height: 20px;
+ color: $--main-white-color;
+ margin: 0;
+ margin-bottom: 32px;
+}
+
+.news-stay__input{
+ border-radius: 5px;
+ border: transparent;
+ border: 2px solid transparent;
+ margin: 0;
+ padding: 18px 22px 12px 22px;
+ margin-right: 21px;
+
+ &:hover{
+  border: 2px solid $--main-yello-color;
+ }
+
+ &:active{
+  opacity: 0.8;
+ }
+}
+
+.news-stay__button{
+ padding: 15px 55px;
+ background-color: $--main-black-color;
+ border: none;
+ border-radius: 5px;
+color:$--main-white-color ;
+
+&:hover{
+ background-color: $--main-yello-color;
+ color: $--main-black-color;
+}
+&:active{
+ opacity: 0.8;
+}
+}

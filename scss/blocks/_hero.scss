@@ -1,0 +1,83 @@
+.hero{
+ position: relative;
+ width: 100%;
+ background-color:$--main-white-color;
+ height: 61px;
+position: relative;}
+
+.hero__box{
+ display: flex;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+
+.hero__logo{
+ position: absolute;
+ top: -17px;
+
+ &:hover{
+  opacity: 0.8;
+ }
+  &:active{
+   opacity: 0.6;
+ }
+}
+
+.hero__item{
+ display: flex;
+ align-items: center;
+ list-style: none;
+}
+
+.hero__List + .hero__List{
+ margin-left: 55px;
+}
+
+.hero__List:nth-child(1):before{
+ content: "";
+ display: inline-block;
+ position: absolute;
+ left: 300px;
+ width: 15px;
+ height: 15px;
+ padding-left:10px;
+ background-image: url("../images/fish-img.svg");
+ background-repeat: no-repeat;
+ background-position: calc(50% - 3px) calc(50% +1px);
+ margin-right: 12px;
+}
+
+.hero__link{
+ text-decoration: none;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 21px;
+ color: $--main-black-color;
+ border-bottom: 5px solid transparent;
+
+ &:hover{
+  border-bottom: 5px solid #F4FFAD;
+ }
+
+ &:active{
+  opacity: 0.6;
+ }
+}
+
+.hero__span::before{
+ content: "";
+ display: inline-block;
+ position: absolute;
+ right: 200px;
+ width: 15px;
+ top: 20px;
+ height: 15px;
+ padding-left:10px;
+ background-image: url("../images/pet\(22\).svg");
+ background-repeat: no-repeat;
+ background-position: calc(50% - 3px) calc(50% +1px);
+ margin-right: 12px;
+
+}

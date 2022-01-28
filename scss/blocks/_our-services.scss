@@ -1,0 +1,68 @@
+.our-services{
+ width: 753px;
+ margin: 0 auto;
+ position: relative;
+}
+
+.our-services__line{
+ display: block;
+ margin: 0 auto;
+ text-align: center;
+ width: 140px;
+ height: 1px;
+ background-color: $--main-gray-color;
+ margin-bottom: 43px;
+ opacity: 0.8;
+}
+
+.our-services__text{
+ font-size: 20px;
+ line-height: 26px;
+ text-align: center;
+ color: $--main-gray-color;
+ margin: 0;
+ margin-bottom: 33px;
+}
+
+.our-services__text:before{
+ content: "";
+ position: absolute;
+ top: 7px;
+ left: -100px ;
+ display: inline-block;
+ width: 40px;
+ height: 50px;
+ z-index: 2;
+ padding-left:10px;
+ background-image: url("../../images/qoshtirnoq_\ \(1\).svg");
+ background-repeat: no-repeat;
+ background-position: calc(50% - 3px) calc(50% +1px);
+ margin-right: 12px;
+}
+
+.our-services__text::after{
+ content: "";
+ position: absolute;
+ top: 80px;
+ right: -100px ;
+ display: inline-block;
+ width: 40px;
+ height: 50px;
+ z-index: 2;
+ padding-left:10px;
+ background-image: url("../../images/qoshtirnoq-\ \(1\).svg");
+ background-repeat: no-repeat;
+ background-position: calc(50% - 3px) calc(50% +1px);
+ margin-right: 12px;
+}
+
+.our-services__span{
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 26px;
+ color: $--main-black-color;
+ margin:  0 auto;
+ display: block;
+ text-align: center;
+ margin-bottom: 191px;
+}

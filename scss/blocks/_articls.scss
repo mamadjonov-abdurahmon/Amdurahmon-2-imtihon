@@ -1,0 +1,135 @@
+
+.articles__taitl{
+ font-weight: bold;
+ font-size: 48px;
+ line-height: 20px;
+ color: $--main-black-color;
+ text-align: center;
+ margin-bottom: 265px;
+}
+
+.articles__item{
+ list-style: none;
+ margin: 0 ;
+ padding: 0;
+ display: flex;
+ align-items: center;
+ margin: 0 auto;
+ width: 1320px;
+}
+
+.articles__list{
+ position: relative;
+ background-color: $--main-white-color;
+ width: 305px;
+ border-radius: 5px;
+ width: 305px;
+ height: 445px;
+ margin-right: 24px;
+}
+
+.articles__img{
+ width: 305px;
+ height: 180px;
+ margin-bottom: 21px;
+}
+
+.articles__box{
+ padding:0px 22px 22px 35px ;
+}
+
+.articles__box--box{
+ display: flex;
+}
+
+.articles__time{
+ margin-left:150px;
+ display:inline-block;
+}
+
+.articles__taitls{
+ margin: 0;
+ font-size: 22px;
+ line-height: 25px;
+ margin-bottom: 10px;
+ color:$--main-black-color;
+}
+
+.articles__text{
+ color: $--main-gray-color;
+ font-size: 16px;
+ line-height: 20px;
+ margin-bottom: 37px;
+}
+
+.articles__strong{
+ position: absolute;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 21px;
+ color: $--main-black-color;
+ margin-left: 30px;
+
+}
+
+.articles__strong::before{
+ position: absolute;
+ content: "";
+ display: inline-block;
+ background-image: url("../images/pet\(22\).svg");
+ width: 23px;
+ height: 21px;
+ left:-30px;
+ top: 2px;
+ background-repeat: no-repeat;
+ background-size: 23px 21px;
+ background-position: calc(50% ) calc(50% - 2px );
+ margin-right: 5px;
+}
+
+.articles__box--box{
+ padding: 0;
+}
+
+.articles__list:nth-child(2){
+ width: 670px;
+ height: 435px;
+ padding: 0;
+}
+
+.articles__list--list{
+ padding: 0;
+}
+
+.articles__img--img{
+ width: 305px;
+ height: 435px;
+}
+
+.articles__wrap{
+ padding: 36px 36px;
+}
+
+.articles__wraps{
+ display: flex;
+ align-items: center;
+}
+
+.articles__link{
+ text-decoration: none;
+ font-size: 14px;
+ line-height: 22px;
+ color: #3D9CEA;
+}
+
+.articles__link + .articles__link{
+ margin-left: 7px;
+}
+
+.articles__link:nth-child(3){
+ margin-right: 70px;
+}
+
+.articles__time--time{
+margin: 0;
+}

@@ -1,0 +1,48 @@
+.mains-esction{
+ padding-top: 153px;
+ background-image: url("../images/sichqon.svg") , url("../images/toti-qush.svg");
+ background-repeat: no-repeat;
+ background-position: calc(50% - 530px) calc(50% - 120px) , calc(50% + 700px) calc(50% + 250px);
+ padding-bottom: 311px;
+}
+
+.main-section__box{
+ width: 606px;
+ margin-left: auto;
+}
+
+.main-section__taitl{
+ margin: 0;
+ font-weight: bold;
+ font-size: 70px;
+ line-height: 64px;
+ color: $--main-black-color;
+ margin-bottom: 29px;
+}
+
+.main-section__span{
+ color: #B0D8EA;
+}
+
+.main-section__text{
+ margin: 0;
+ font-size: 16px;
+ line-height: 21px;
+ color: $--main-gray-color;
+ margin-bottom: 39px;
+}
+
+.main-section__button{
+ border: none;
+ background-color: $--main-black-color;
+ color: $--main-white-color;
+ padding: 15px 46px;
+ &:hover{
+  background-color: $--main-yello-color;
+  color: $--main-black-color;
+ }
+ &:active{
+  opacity: 0.6;
+  color: $--main-black-color;
+ }
+}

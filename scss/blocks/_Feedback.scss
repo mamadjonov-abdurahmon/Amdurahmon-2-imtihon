@@ -1,0 +1,68 @@
+.Feedback{
+ display: flex;
+ align-items: center;
+ padding-top: 265px;
+ background-image: url("../../images/riba.png");
+ background-repeat: no-repeat;
+ background-position: calc(50% + 70px) calc(50% + 70px);
+ padding-bottom: 153px;
+ width: 100%;
+}
+
+.Feedback__iframe{
+ margin: 0;
+ width: 498px;
+ height: 655px;
+ margin-top: 30px;
+ margin-right:150px ;
+}
+
+.Feedback__box{
+ width: 395px;
+
+}
+
+.Feedback__taitl{
+ font-weight: bold;
+ font-size: 48px;
+ line-height: 62px;
+ color: $--main-white-color;
+ margin: 0;
+ margin-bottom: 14px;
+}
+
+.Feedback__text{
+ font-size: 16px;
+ line-height: 20px;
+ color: $--main-gray-color;
+ margin: 0;
+ margin-bottom: 24px;
+ resize: none;
+}
+
+.Feedback__input{
+ margin-bottom: 14px;
+ width: 375px;
+ padding: 14px 22px;
+}
+
+.Feedback__button{
+ color: $--main-white-color;
+ padding: 15px 50px;
+ border: transparent;
+ background-color: $--main-yello-color;
+ &:hover{
+  color: $--main-white-color;
+  opacity: 0.8;
+ }
+ &:active{
+  opacity: 0.6;
+ }
+}
+
+.Feedback__textarea{
+  width: 415px;
+ height: 163px;
+resize: none;
+margin-bottom: 34px;
+}

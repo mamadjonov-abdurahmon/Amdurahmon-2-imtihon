@@ -1,0 +1,104 @@
+.intro{
+ padding: 12px 0px 9px 0px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.intro__mailto{
+ margin-left: 193px;
+ text-decoration: none;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 18px;
+color: $--main-black-color;
+}
+
+.intro__mailto::before{
+ content: "";
+ display: inline-block;
+ background-image: url("../images/mailto.svg");
+ width: 14px;
+ height: 13px;
+ margin-right: 9px;
+ background-repeat: no-repeat;
+ background-position: calc(50% ) calc(50% );
+}
+
+.intro__tel{
+ text-decoration: none;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 18px;
+color: $--main-black-color;
+&:hover{
+ color: $--main-yello-color;
+
+&:active{
+color: $--main-gray-color;
+opacity: 0.6;
+}
+
+}
+
+}
+
+.intro__tel + .intro__tel{
+ margin-left: 9px;}
+
+ .intro__tel:nth-child(1)::before{
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/tel-img.svg");
+  width: 14px;
+  height: 13px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+  background-position: calc(50% ) calc(50% );
+
+ }
+
+ .intro__tel:nth-child(2)::before{
+  content: "";
+  display: inline-block;
+  background-image: url("../images/elipso\(1\).svg");
+  width: 14px;
+  height: 13px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+  background-position: calc(50% ) calc(50% + 3px);
+ }
+
+ .intro__tel:nth-child(3)::before{
+  content: "";
+  display: inline-block;
+  background-image: url("../images/elipso\(1\).svg");
+  width: 14px;
+  height: 13px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+  background-position: calc(50% ) calc(50% + 3px);
+ }
+
+
+ .intro__time{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $--main-black-color;
+ }
+
+ .intro__time:nth-child(1)::before{
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/time.svg");
+  width: 14px;
+  height: 13px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+  background-position: calc(50% ) calc(50% );
+ }
+
+ .intro__time:nth-child(1){
+  margin-right: 17px;
+ }
